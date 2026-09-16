@@ -45,7 +45,7 @@ export default function Header() {
       <div className="nav-container">
         <a href="#home" className="logo" aria-label="Home" onClick={closeMenu}>
           <img
-            src="/assets/logo.svg"
+            src="./assets/logo.svg"
             alt="< R />"
             width="48"
             height="48"
