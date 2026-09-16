@@ -100,9 +100,9 @@ ul {
 
 /* LAYOUT */
 .container {
-  max-width: 1024px;
+  max-width: 1320px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 clamp(1.5rem, 4vw, 3rem);
 }
 
 section {
@@ -111,7 +111,7 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 4rem 0;
+    padding: 5rem 0;
   }
 }
 
@@ -132,7 +132,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 4rem;
+  height: 4.25rem;
+  width: 100%;
+  padding: 0 clamp(1.5rem, 4vw, 3.5rem);
 }
 
 .nav-wrapper {
@@ -304,11 +306,11 @@ header {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding-top: 4rem;
+  padding-top: 4.25rem;
 }
 
 .hero-content {
-  max-width: 800px;
+  max-width: 960px;
 }
 
 .hero-actions {
@@ -541,7 +543,7 @@ header {
 
 .contact-heading {
   font-size: clamp(2rem, 4vw, 3rem);
-  max-width: 800px;
+  max-width: 920px;
   margin: 0 auto 3rem auto;
 }
 

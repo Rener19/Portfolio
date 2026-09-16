@@ -42,7 +42,7 @@ export default function Header() {
 
   return (
     <header>
-      <div className="container nav-container">
+      <div className="nav-container">
         <a href="#home" className="logo" aria-label="Home" onClick={closeMenu}>
           <img
             src="/assets/logo.svg"
