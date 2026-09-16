@@ -41,7 +41,14 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 4.75rem;
   font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  html {
+    scroll-padding-top: 5.25rem;
+  }
 }
 
 body {
@@ -107,11 +114,23 @@ ul {
 
 section {
   padding: 3rem 0;
+  scroll-margin-top: 4.75rem;
 }
 
 @media (min-width: 768px) {
   section {
     padding: 5rem 0;
+    scroll-margin-top: 5.25rem;
+  }
+}
+
+[id] {
+  scroll-margin-top: 4.75rem;
+}
+
+@media (min-width: 768px) {
+  [id] {
+    scroll-margin-top: 5.25rem;
   }
 }
 
